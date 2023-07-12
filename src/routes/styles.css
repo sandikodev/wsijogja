@@ -13,6 +13,10 @@ body {
   overflow-x: hidden;
 }
 
+#showcase {
+  scroll-margin: 100px;
+}
+
 /* HEADINGS ------------------------------------- */
 h1,
 h2,
@@ -110,7 +114,7 @@ ul {
 /* BUTTONS -------------------------------------- */
 a.button,
 button {
-  background: var(--qwik-light-blue);
+  background: #4e32a8;
   border: none;
   border-radius: 8px;
   color: white;

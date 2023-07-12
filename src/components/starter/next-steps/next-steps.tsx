@@ -30,7 +30,7 @@ export const GETTING_STARTED_STEPS = [
   },
 ];
 
-export default component$(() => {
+export default component$(({id}:{id:string}) => {
   const gettingStartedStep = useSignal(0);
 
   useOnWindow(
@@ -43,7 +43,7 @@ export default component$(() => {
   );
 
   return (
-    <div class="container container-purple container-center">
+    <div class="container container-purple container-center" id={id}>
       <h2>
         Time for a
         <br />
